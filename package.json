@@ -1,0 +1,12 @@
+{
+  "name": "cajui-site",
+  "version": "1.0.0",
+  "description": "Website oficial da Cajuí — Roupa para viver a infância (Coleção Geleia de Maçã).",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/site.test.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

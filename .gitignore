@@ -1,0 +1,8 @@
+.env
+.env.*
+*.key
+*.pem
+node_modules/
+fotos-produtos/
+.DS_Store
+Thumbs.db
