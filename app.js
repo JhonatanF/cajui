@@ -21,16 +21,20 @@ const CATALOG_ITEMS = {
     ],
     photos: [
       {
-        src: 'assets/foto-bata-short-1.jpg',
-        alt: 'Criança de corpo inteiro vestindo o Conjunto Bata + Short da Cajuí',
+        src: 'assets/galeria-modelo-bata-short.jpg',
+        alt: 'Modelo vestindo o Conjunto Bata + Short da Coleção Geleia de Maçã',
       },
       {
-        src: 'assets/foto-bata-short-2.jpg',
-        alt: 'Detalhe do franzido no busto e alças de laço do Conjunto Bata + Short',
+        src: 'assets/galeria-bata-laco-detalhe.jpg',
+        alt: 'Detalhe das alças com amarração em laço da bata em viscose',
       },
       {
-        src: 'assets/foto-escada-amarela.jpg',
-        alt: 'Criança sorrindo na escada amarela com o Conjunto Bata + Short',
+        src: 'assets/galeria-short-caju-detalhe.jpg',
+        alt: 'Detalhe do short em viscolinho com aplicação de cajuzinho em crochê',
+      },
+      {
+        src: 'assets/galeria-tres-modelos-juntas.jpg',
+        alt: 'As três modelos da Cajuí juntas com a Coleção Geleia de Maçã',
       },
     ],
   },
@@ -48,16 +52,20 @@ const CATALOG_ITEMS = {
     ],
     photos: [
       {
-        src: 'assets/foto-macacao-1.jpg',
-        alt: 'Criança usando o Macacão Over estampado da Coleção Geleia de Maçã',
+        src: 'assets/galeria-modelo-macacao.jpg',
+        alt: 'Modelo usando o Macacão Over estampado da Coleção Geleia de Maçã',
       },
       {
-        src: 'assets/foto-macacao-2.jpg',
+        src: 'assets/galeria-macacao-oculos.jpg',
         alt: 'Macacão Over com modelagem balão confortável para brincar',
       },
       {
-        src: 'assets/foto-macacao-detalhe.jpg',
-        alt: 'Detalhe das alças com elástico e acabamento artesanal da Cajuí',
+        src: 'assets/galeria-macacao-cabide.jpg',
+        alt: 'Macacão Over pendurado mostrando a estampa Geleia de Maçã e alças com elástico',
+      },
+      {
+        src: 'assets/galeria-macacao-detalhe-busto.jpg',
+        alt: 'Detalhe do decote franzido, alças com elástico e cajuzinho no Macacão Over',
       },
     ],
   },
@@ -75,16 +83,16 @@ const CATALOG_ITEMS = {
     ],
     photos: [
       {
-        src: 'assets/foto-pantalona-1.jpg',
-        alt: 'Criança vestindo o Conjunto Blusa + Calça Pantalona da Cajuí',
+        src: 'assets/galeria-modelo-pantalona.jpg',
+        alt: 'Modelo vestindo o Conjunto Blusa + Calça Pantalona da Coleção Geleia de Maçã',
+      },
+      {
+        src: 'assets/galeria-pantalona-2.jpg',
+        alt: 'Retrato do Conjunto Blusa + Calça Pantalona com detalhes da peça',
       },
       {
         src: 'assets/foto-pantalona-detalhe.jpg',
         alt: 'Detalhe da modelagem ampla e regulagem na cintura da calça pantalona',
-      },
-      {
-        src: 'assets/foto-pantalona-2.jpg',
-        alt: 'Retrato do Conjunto Blusa + Calça Pantalona da Coleção Geleia de Maçã',
       },
     ],
   },

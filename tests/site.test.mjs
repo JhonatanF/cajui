@@ -160,3 +160,31 @@ test('todos os seletores DOM referenciados em app.js existem em index.html', () 
     assert.match(html, new RegExp(`id="${id}"`), `ID referenciado no JS ausente no HTML: #${id}`);
   }
 });
+
+test('hero exibe as três modelos da galeria, varal usa os três mockups fiéis e rodapé menciona a Narosco', () => {
+  const heroPhotos = [
+    'assets/galeria-modelo-bata-short.jpg',
+    'assets/galeria-modelo-macacao.jpg',
+    'assets/galeria-modelo-pantalona.jpg',
+  ];
+  for (const src of heroPhotos) {
+    assert.ok(html.includes(src), `Foto da galeria ausente no HTML: ${src}`);
+    assert.ok(fs.existsSync(path.join(rootDir, src)), `Arquivo ausente: ${src}`);
+  }
+
+  const varalMockups = [
+    'assets/mockup-camisa-short.png',
+    'assets/mockup-macacao-over.png',
+    'assets/mockup-blusa-pantalona.png',
+  ];
+  for (const src of varalMockups) {
+    assert.ok(html.includes(src), `Mockup fiel ausente no varal do HTML: ${src}`);
+    assert.ok(fs.existsSync(path.join(rootDir, src)), `Arquivo ausente: ${src}`);
+  }
+
+  assert.match(
+    html,
+    /<a\b[^>]*href="https:\/\/narosco\.com"[^>]*rel="noopener noreferrer"[^>]*>Narosco<\/a>/i,
+    'Menção de criação à Narosco com link seguro deve estar presente no rodapé',
+  );
+});
